@@ -26,7 +26,7 @@ class GithubSearch extends Component {
     }
 
     handleEvent = (event) => {
-        this.setState({ searchText: event.target.value })
+        this.setState({user:null, searchText: event.target.value })
     }
 
 
